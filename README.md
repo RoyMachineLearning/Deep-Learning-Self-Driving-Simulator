@@ -6,47 +6,10 @@ Note: You can run without training using the pretrained model if short of comput
 
 <b>Use python3 Predict_model_v2.py to run the model on the dataset</b>
 
-
-<pre>
-To visualize training using Tensorboard use tensorboard 
-
-from keras.callbacks import TensorBoard
-Create logs directory on your local drive
-Add this code in as well
-
-tensorboard = TensorBoard(log_dir='./logs', histogram_freq=0,
-                          write_graph=True, write_images=False)
-
-In the “fit” section of the code make sure that TensorBoard is called
-  
-model.fit(train_x, train_y, validation_data=(val_x, val_y), epochs=10, batch_size=32,callbacks=[tensorboard])
-
-RUN the code and when the model finishes running go to prompt and put
-
-tensorboard --logdir=path/to/log-directory
-
-when you put the path to logs directory the tensorboard will not work. The tensor model is actually saved 
-in a higher directory than the logs.
-
-So if your directory structure looks like this:
-
-Root/test1/logs
-
-Your models get saved in test1 and your logs get saved in logs.
-
-So you need to point the TensorBoard to test1
-
-For example:
-
-TensorBoard  —logdir Test1
-
-Then you go to the browser and type localhost:6006
-</pre>
-
 <b>
 Other Larger Datasets you can train on
 </b>
-
+<br/>  
 (1) Udacity: https://medium.com/udacity/open-sourcing-223gb-of-mountain-view-driving-data-f6b5593fbfa5
 70 minutes of data ~ 223GB
 Format: Image, latitude, longitude, gear, brake, throttle, steering angles and speed
@@ -61,14 +24,14 @@ Format: Image, latitude, longitude, gear, brake, throttle, steering angles and s
 Some other State of the Art Implementations
   
 </b>
-
+<br/>  
 Implementations: https://github.com/udacity/self-driving-car
 
 Blog: https://medium.com/udacity/teaching-a-machine-to-steer-a-car-d73217f2492c
 
 <b>
 Credits & Inspired By
-  
+<br/>  
 </b>
 
 (1) Research paper: End to End Learning for Self-Driving Cars by Nvidia. [https://arxiv.org/pdf/1604.07316.pdf]
