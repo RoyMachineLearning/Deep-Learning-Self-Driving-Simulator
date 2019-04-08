@@ -59,6 +59,7 @@ Format: Image, latitude, longitude, gear, brake, throttle, steering angles and s
 
 <b>
 Some other State of the Art Implementations
+  
 </b>
 
 Implementations: https://github.com/udacity/self-driving-car
@@ -67,6 +68,7 @@ Blog: https://medium.com/udacity/teaching-a-machine-to-steer-a-car-d73217f2492c
 
 <b>
 Credits & Inspired By
+  
 </b>
 
 (1) Research paper: End to End Learning for Self-Driving Cars by Nvidia. [https://arxiv.org/pdf/1604.07316.pdf]
