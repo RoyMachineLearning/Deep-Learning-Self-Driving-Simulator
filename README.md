@@ -12,10 +12,10 @@ Other Larger Datasets you can train on
 <br>
 
 (1) Udacity: https://medium.com/udacity/open-sourcing-223gb-of-mountain-view-driving-data-f6b5593fbfa5
-70 minutes of data ~ 223GB
-Format: Image, latitude, longitude, gear, brake, throttle, steering angles and speed
+70 minutes of data ~ 223GB. Format: Image, latitude, longitude, gear, brake, throttle, steering angles and speed
 
-(2) Udacity Dataset: https://github.com/udacity/self-driving-car/tree/master/datasets [Datsets ranging from 40 to 183 GB in different conditions]
+(2) Udacity Dataset: https://github.com/udacity/self-driving-car/tree/master/datasets 
+[Datsets ranging from 40 to 183 GB in different conditions]
 
 (3) Comma.ai Dataset [80 GB Uncompressed] https://github.com/commaai/research
 
