@@ -4,8 +4,10 @@ Download Dataset by Sully Chen: [https://drive.google.com/file/d/0B-KJCaaF7elleG
 
 Note: You can run without training using the pretrained model if short of compute resources
 
-Use python3 Predict_model_v2.py to run the model on the dataset
+<b>Use python3 Predict_model_v2.py to run the model on the dataset</b>
 
+
+<pre>
 To visualize training using Tensorboard use tensorboard 
 
 from keras.callbacks import TensorBoard
@@ -23,7 +25,8 @@ RUN the code and when the model finishes running go to prompt and put
 
 tensorboard --logdir=path/to/log-directory
 
-when you put the path to logs directory the tensorboard will not work. The tensor model is actually saved in a higher directory than the logs.
+when you put the path to logs directory the tensorboard will not work. The tensor model is actually saved 
+in a higher directory than the logs.
 
 So if your directory structure looks like this:
 
@@ -38,7 +41,7 @@ For example:
 TensorBoard  —logdir Test1
 
 Then you go to the browser and type localhost:6006
-
+</pre>
 
 Other Larger Datasets you can train on
 
