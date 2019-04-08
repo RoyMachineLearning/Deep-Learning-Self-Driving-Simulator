@@ -9,7 +9,8 @@ Note: You can run without training using the pretrained model if short of comput
 <b>
 Other Larger Datasets you can train on
 </b>
-<br/>  
+<br>
+
 (1) Udacity: https://medium.com/udacity/open-sourcing-223gb-of-mountain-view-driving-data-f6b5593fbfa5
 70 minutes of data ~ 223GB
 Format: Image, latitude, longitude, gear, brake, throttle, steering angles and speed
@@ -24,14 +25,14 @@ Format: Image, latitude, longitude, gear, brake, throttle, steering angles and s
 Some other State of the Art Implementations
   
 </b>
-<br/>  
+<br>  
 Implementations: https://github.com/udacity/self-driving-car
 
 Blog: https://medium.com/udacity/teaching-a-machine-to-steer-a-car-d73217f2492c
 
 <b>
 Credits & Inspired By
-<br/>  
+<br>  
 </b>
 
 (1) Research paper: End to End Learning for Self-Driving Cars by Nvidia. [https://arxiv.org/pdf/1604.07316.pdf]
