@@ -43,7 +43,9 @@ TensorBoard  —logdir Test1
 Then you go to the browser and type localhost:6006
 </pre>
 
+<b>
 Other Larger Datasets you can train on
+</b>
 
 (1) Udacity: https://medium.com/udacity/open-sourcing-223gb-of-mountain-view-driving-data-f6b5593fbfa5
 70 minutes of data ~ 223GB
@@ -55,15 +57,15 @@ Format: Image, latitude, longitude, gear, brake, throttle, steering angles and s
 
 (4) Apollo Dataset with different environment data of road: http://data.apollo.auto/?locale=en-us&lang=en
 
-
+<b>
 Some other State of the Art Implementations
-
+</b>
 Implementations: https://github.com/udacity/self-driving-car
 Blog: https://medium.com/udacity/teaching-a-machine-to-steer-a-car-d73217f2492c
 
-
+<b>
 Credits & Inspired By
-
+</b>
 (1) Research paper: End to End Learning for Self-Driving Cars by Nvidia. [https://arxiv.org/pdf/1604.07316.pdf]
 
 (2) Research paper: Self Driving Car Steering Angle Prediction based on Image Recognition by Stanford. [http://cs231n.stanford.edu/reports/2017/pdfs/626.pdf]
