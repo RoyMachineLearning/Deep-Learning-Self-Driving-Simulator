@@ -60,12 +60,15 @@ Format: Image, latitude, longitude, gear, brake, throttle, steering angles and s
 <b>
 Some other State of the Art Implementations
 </b>
+
 Implementations: https://github.com/udacity/self-driving-car
+
 Blog: https://medium.com/udacity/teaching-a-machine-to-steer-a-car-d73217f2492c
 
 <b>
 Credits & Inspired By
 </b>
+
 (1) Research paper: End to End Learning for Self-Driving Cars by Nvidia. [https://arxiv.org/pdf/1604.07316.pdf]
 
 (2) Research paper: Self Driving Car Steering Angle Prediction based on Image Recognition by Stanford. [http://cs231n.stanford.edu/reports/2017/pdfs/626.pdf]
